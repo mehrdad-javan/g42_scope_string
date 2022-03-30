@@ -18,7 +18,6 @@ public class MethodOverLoadingDemo {
     return num1 + num2;
   }
 
-
   public static int addition(int... numbers) {
     int result = 0;
     for (int i = 0; i < numbers.length; i++) {
